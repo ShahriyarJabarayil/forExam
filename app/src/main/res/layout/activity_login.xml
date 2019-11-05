@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Name "
+            android:textColor="@color/colorAccent"
+            />
+        <EditText
+            android:id="@+id/et_namelogin"
+            android:hint="name"
+            android:layout_marginLeft="15dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Password  "
+            android:textColor="@color/colorAccent"
+            />
+        <EditText
+            android:id="@+id/et_password"
+            android:hint="password"
+            android:layout_marginLeft="15dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_marginTop="15dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Sign in"/>
+    <Button
+        android:id="@+id/btn_go_regst"
+        android:layout_marginTop="15dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="Sign up"/>
+
+
+
+</LinearLayout>
